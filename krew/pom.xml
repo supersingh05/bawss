@@ -11,6 +11,7 @@
     <module>dbStore</module>
     <module>pushService</module>
     <module>webservice</module>
+    <module>dataModel</module>
   </modules>
 
   <dependencies>
@@ -19,6 +20,11 @@
       <artifactId>testng</artifactId>
       <version>6.8.5</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.3</version>
     </dependency>
   </dependencies>
 </project>
